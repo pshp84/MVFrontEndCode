@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <title>
+        Users Api response
+    </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <!-- Internal CSS styling -->
+    <link href="css/common.css">
+    <script type="text/javascript" src="js/testcases.js"></script>
+
+    <script type="text/javascript" src="js/user.js"></script>
+</head>
+<body>
+    <nav>
+        <a href="javascript:void()">User List</a> |
+    </nav>
+    <table id="responseTable">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>User Name</th>
+                <th>Email</th>
+                <th>Phone</th>
+                <th>Website</th>
+                <th>Company</th>
+                <th>Catch Phrase</th>
+                <th>Bs</th>
+                <th>Address</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+
+    <script type="text/javascript">
+        it('return a list of users', () => {
+            return ShowAllUsers();
+        });
+        
+    </script>
+</body>
+
+</html>
